@@ -1,0 +1,127 @@
+* {
+    text-align: left;
+    margin:0px;
+  }
+
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+    background-image:url(../images/united-squares-negative.png);
+}
+
+#topnav{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    position: relative;
+    height: 75px;
+    background-color:white;
+    border:#cccccc;
+    border-bottom-style: solid;
+}
+
+.navbar-nav{
+    padding:0;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
+}
+
+#name{
+    padding-left:235px;
+    float: left;  
+}
+
+a:link{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    padding-right: 290px;
+
+}
+
+li{
+    float: right;
+}
+
+h1{
+    height: 77px;
+    color:white;
+    background-color:#4aaaa5;
+    text-align: center;
+}
+
+main{
+    margin: 100px;
+    margin-left:18%;
+    margin-right:18%;
+    background-color:white;
+    border:#cccccc;
+    border-style: solid;
+    border-width: 1.5px;
+    width: 960px;
+}
+
+h2{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color:#4aaaa5;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 0px;                 
+}
+
+hr{
+    padding:0.5px;
+    margin:20px;
+    background-color: #cccccc;
+}
+
+#myphoto{
+    float: left;
+    width: 200px;
+    padding:50px;
+    padding-right:15px;
+    padding-top:15px;
+}
+
+p{
+    color:#777777;
+    padding-right: 20px;
+    line-height: 35px;
+    
+}
+
+li a{
+    color:#777777;
+    padding: 5px;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.active{
+    text-decoration: none;
+}
+#bottom{
+    background-color:#4aaaa5;
+    height: 4px;
+}
+.sticky{
+    background-color: #666666;
+    position:sticky;
+    height: 50px;
+    top:0;
+}
+
+
+@media screen and (max-width:640px){
+    .bio-container{
+        margin-left: 25px;
+        margin-right: 25px;
+        align-content: center;
+    }
+}
