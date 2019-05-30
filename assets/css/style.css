@@ -21,6 +21,7 @@ body{
     padding:0;
 }
 
+/* I HAD TO END FLEX TO GET TEXT TO SHIFT TO THE RIGHT SIDE OF THE NAV BAR INSTEAD OF THE LEFT */
 .navbar-expand-lg .navbar-collapse{
     justify-content: flex-end;
 }
@@ -110,14 +111,24 @@ li a{
     background-color:#4aaaa5;
     height: 4px;
 }
+
+/* I WOULD LIKE THE TEXT IN THE FOOTER TO BE ALIGNED CENTER */
 footer.navbar-brand{
     text-align: center;
 }
 
+/* I WOULD WOULD LIKE THE MARGINS TO ADJUST AS FOLLOWS BASED ON SCREEN SIZE */
 @media screen and (max-width:640px){
     .bio-container{
         margin-left: 25px;
         margin-right: 25px;
+        align-content: center;
+    }
+}
+    @media screen and (max-width: 576px){
+    .bio-container {
+        margin-left: 0;
+        margin-right: 0;
         align-content: center;
     }
 }
