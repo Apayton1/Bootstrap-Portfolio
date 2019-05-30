@@ -110,13 +110,9 @@ li a{
     background-color:#4aaaa5;
     height: 4px;
 }
-.sticky{
-    background-color: #666666;
-    position:sticky;
-    height: 50px;
-    top:0;
+footer.navbar-brand{
+    text-align: center;
 }
-
 
 @media screen and (max-width:640px){
     .bio-container{
